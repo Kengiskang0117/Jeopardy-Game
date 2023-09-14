@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #f60c0c;
+    text-align: center;
+    padding: 25px;
+}
+
+th {
+    background-color: #0cf627;
+}
+td {
+    background-color: #b3ecba;
+}
+
+th, td {
+    cursor: pointer;
+}
+
+button {
+    margin-top: 20px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+}
+
+.clickable {
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    font-size: bold;
+}
